@@ -52,7 +52,7 @@ Users should be able to:
 
 ### What I learned
 
-While developing this card component using the technologies and methodologies mentioned above, I exercised foundational skills in creating responsive, scalable, and accessible components. By using custom focus styles, for example, I could balance accessibility and aesthetics. Using the pseudo classes :focus and :focus-visibile allowed me to improve accessibility and maintain visual design consistency by providing clear keyboard-specific focus indicatiors without disrupting the design for touch or mouse users.
+While developing this card component using the technologies and methodologies mentioned above, I exercised foundational skills in creating responsive, scalable, and accessible components. By using custom focus styles, for example, I could balance accessibility and aesthetics. Using the pseudo classes :focus and :focus-visible allowed me to improve accessibility and maintain visual design consistency by providing clear keyboard-specific focus indicatiors without disrupting the design for touch or mouse users.
 
 ### Continued development
 
