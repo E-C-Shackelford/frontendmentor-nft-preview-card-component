@@ -25,7 +25,7 @@
   </head>
 
   <body>
-    <article class="c-card">
+    <article class="c-card l-flex-column">
       <a href="#">
         <img
           src="images/image-equilibrium.jpg"
@@ -34,7 +34,7 @@
         />
       </a>
 
-      <div class="c-card__content">
+      <div class="c-card__content l-flex-column">
         <h1 class="c-card__title">
           <a href="">Equilibrium #3429</a>
         </h1>
@@ -43,13 +43,26 @@
           Our Equilibrium collection promotes balance and calm.
         </p>
 
-        <div>
-          <p class="c-card__eth">0.041 ETH</p>
-          <p class="c-card__days-left">3 days left</p>
+        <div class="l-flex-row">
+          <p class="c-card__eth l-flex-row">
+            <img
+              src="images/icon-ethereum.svg"
+              alt="Ethereum logo next to ETH (Ether) value"
+              class="c-card__icon"
+            />
+            0.041 ETH
+          </p>
+          <p class="c-card__days-left l-flex-row">
+            <img
+              src="images/icon-clock.svg"
+              alt="Clock icon next to days left value"
+              class="c-card__icon"
+            />3 days left
+          </p>
         </div>
       </div>
 
-      <div>
+      <div class="l-flex-row">
         <img
           src="images/image-avatar.png"
           alt="Creator avatar"
