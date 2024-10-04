@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -25,34 +24,43 @@
   </head>
 
   <body>
-    <article class="c-card l-flex-column">
-      <a href="#">
+    <article
+      class="c-card l-flex-column u-gap-m u-width-90 u-width-max-400 u-margin-y-80 u-pad u-pad-sm-24 u-border-radius"
+    >
+      <a href="#" class="c-card__image-link">
         <img
           src="images/image-equilibrium.jpg"
           alt="Colorful cube standing on its corner"
-          class="c-card__image"
+          class="c-card__image u-border-radius"
         />
+        <div class="c-card__overlay"></div>
       </a>
 
-      <div class="c-card__content l-flex-column">
+      <div class="c-card__content l-flex-column u-gap-s u-border-end u-pad-end">
         <h1 class="c-card__title">
-          <a href="">Equilibrium #3429</a>
+          <a href="#" class="u-link-primary u-font-weight-semibold"
+            >Equilibrium #3429</a
+          >
         </h1>
 
-        <p class="c-card__description">
+        <p class="c-card__description u-font-weight-light">
           Our Equilibrium collection promotes balance and calm.
         </p>
 
-        <div class="l-flex-row">
-          <p class="c-card__eth l-flex-row">
+        <div class="l-flex-row u-space-between u-align-center">
+          <p
+            class="c-card__eth l-flex-row u-justify-start u-align-center u-gap-xs"
+          >
             <img
               src="images/icon-ethereum.svg"
-              alt="Ethereum logo next to ETH (Ether) value"
+              alt="Ethereum icon next to ETH (Ether) value"
               class="c-card__icon"
             />
             0.041 ETH
           </p>
-          <p class="c-card__days-left l-flex-row">
+          <p
+            class="c-card__days-left l-flex-row u-justify-start u-align-center u-gap-xs"
+          >
             <img
               src="images/icon-clock.svg"
               alt="Clock icon next to days left value"
@@ -62,7 +70,7 @@
         </div>
       </div>
 
-      <div class="l-flex-row">
+      <div class="l-flex-row u-justify-start u-align-center u-gap-m">
         <img
           src="images/image-avatar.png"
           alt="Creator avatar"
@@ -70,16 +78,22 @@
         />
         <p class="c-card__creator-name">
           Creation of
-          <a href="#">Jules Wyvern</a>
+          <a href="#" class="u-link-primary">Jules Wyvern</a>
         </p>
       </div>
     </article>
 
-    <p class="attribution">
+    <p class="c-attribution u-width-90">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="c-attribution__link u-link-secondary"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Elizabeth Shackelford</a>.
+      >. Coded by
+      <a href="#" class="c-attribution__link u-link-secondary"
+        >Elizabeth Shackelford</a
+      >.
     </p>
   </body>
 </html>
