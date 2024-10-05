@@ -27,6 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
+![NFT preview card component solution screenshot](images/nft-preview-card-component-solution-screenshot.png)
+
 ### Links
 
 - Solution URL: [Solution – GitHub Repository](https://github.com/E-C-Shackelford/frontendmentor-nft-preview-card-component)
