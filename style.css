@@ -93,8 +93,16 @@ a:visited {
   gap: var(--spacing-lg);
 }
 
-.u-margin-y-80 {
-  margin: 80px auto;
+.u-margin-y-96-64 {
+  margin: 96px auto 64px;
+}
+
+.u-margin-x-center {
+  margin: 0 auto;
+}
+
+.u-margin-end-48 {
+  margin: 0 auto 48px;
 }
 
 .u-pad {
@@ -213,7 +221,6 @@ a:visited {
 .c-attribution {
   font-size: var(--font-size-credits);
   text-align: var(--align-center);
-  margin: 0 auto;
 }
 
 @media (max-width: 320px) {
