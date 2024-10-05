@@ -73,6 +73,10 @@ a:visited {
   justify-content: flex-start;
 }
 
+.u-justify-center {
+  justify-content: center;
+}
+
 .u-align-center {
   align-items: var(--align-center);
 }
@@ -197,6 +201,11 @@ a:visited {
   background-color: hsla(178, 100%, 50%, 0.5);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+}
+
+.c-card__overlay-icon {
+  width: 40px;
+  height: 40px;
 }
 
 .c-card__image-link:hover .c-card__overlay {
