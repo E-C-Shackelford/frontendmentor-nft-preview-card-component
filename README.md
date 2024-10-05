@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution – GitHub Repository](https://github.com/E-C-Shackelford/frontendmentor-nft-preview-card-component)
-- Live Site URL: [Live Site – Deployed Application]()
+- Live Site URL: [Live Site – Deployed Application](https://e-c-shackelford.github.io/frontendmentor-nft-preview-card-component/)
 
 ## My process
 
