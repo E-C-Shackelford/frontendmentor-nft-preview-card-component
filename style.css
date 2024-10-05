@@ -208,7 +208,9 @@ a:visited {
   height: 40px;
 }
 
-.c-card__image-link:hover .c-card__overlay {
+.c-card__image-link:hover .c-card__overlay,
+.c-card__image-link:focus .c-card__overlay,
+.c-card__image-link:focus-visible .c-card__overlay {
   opacity: 1;
 }
 
